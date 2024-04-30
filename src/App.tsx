@@ -6,7 +6,7 @@ function App() {
  
   return (
     <>
-    <div className="flex items-center flex-col h-screen justify-center bg-[#212020] ">
+    <div className="flex items-center flex-col h-screen justify-center bg-[#212020] shadow-3xl ">
       <Card/>
       <FooterCard/>
     </div>

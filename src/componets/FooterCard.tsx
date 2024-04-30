@@ -1,7 +1,7 @@
 const FooterCard = () => {
   return (
     <div className="bg-[#1f1e1e] h-[95px] w-[386px] flex justify-around items-center">
-      <div className="hover:cursor-pointer hover:scale-150">
+      <div className= "transition-all duration-500 hover:cursor-pointer hover:scale-150">
       <a href="https://twitter.com/">
         <svg
           width="25"
@@ -19,7 +19,7 @@ const FooterCard = () => {
         </svg>
         </a>
       </div>
-      <div className="hover:cursor-pointer hover:scale-150">
+      <div className="transition-all duration-500 hover:cursor-pointer hover:scale-150">
         <a href="https://www.linkedin.com/in/lohana-orellano-81b242246/">
         <svg
           width="20"
@@ -37,7 +37,7 @@ const FooterCard = () => {
         </svg>
         </a>
       </div>
-      <div className="hover:cursor-pointer hover:scale-150">
+      <div className="transition-all duration-500 hover:cursor-pointer hover:scale-150">
         <a href="https://www.facebook.com/lohap/">
         <svg
           width="11"
